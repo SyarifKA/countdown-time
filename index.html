@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-title">
+            <img src="logo.webp" alt="Company Logo" class="logo">
+            <h1>cid upstream award 2024</h1>
+        </div>
+    </header>
+    <div class="timer">
+        <div id="display">00:00:00</div>
+        <div class="controls">
+            <input type="number" id="hours" placeholder="HH" min="0" max="23">
+            <input type="number" id="minutes" placeholder="MM" min="0" max="59">
+            <input type="number" id="seconds" placeholder="SS" min="0" max="59">
+            <button id="startStopBtn">Start</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="closeBtn" class="close">&times;</span>
+            <p>Time is up!</p>
+        </div>
+    </div>
+    <audio id="beep" src="audio/beep.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
