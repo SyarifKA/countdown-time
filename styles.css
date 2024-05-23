@@ -10,7 +10,6 @@ body {
 }
 
 .container-fluid {
-    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,7 +22,6 @@ body {
 }
 
 .judul {
-    display: inline-block;
     color:#fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
