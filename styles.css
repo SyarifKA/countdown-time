@@ -28,15 +28,6 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-h1 {
-    position: relative;
-    margin-top: 60px;
-    font-size: 3em;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 .timer {
     background: white;
     padding: 40px;
