@@ -31,6 +31,7 @@ body {
     .timer {
       font-size: xx-small;
       width: 400px;
+      margin-top: -150px;
     }
   }
 
