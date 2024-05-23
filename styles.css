@@ -10,6 +10,7 @@ body {
 }
 
 .container-fluid {
+    display: block;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -25,6 +26,13 @@ body {
     color:#fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 480px) {
+    .timer {
+      font-size: xx-small;
+      width: 400px;
+    }
+  }
 
 .timer {
     background: white;
