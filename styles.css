@@ -2,7 +2,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #07d812, #6cdb6a);
+    /* background: linear-gradient(to bottom, #07d812, #6cdb6a); */
+    background: #fff;
     overflow: hidden;
 }
 
